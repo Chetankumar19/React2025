@@ -1,0 +1,26 @@
+{
+  "name": "leacture1",
+  "version": "1.0.0",
+  "description": "This is second leacture of react",
+  "keywords": [
+    "react",
+    "chetan"
+  ],
+  "homepage": "https://github.com/Chetankumar19/React2025#readme",
+  "bugs": {
+    "url": "https://github.com/Chetankumar19/React2025/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chetankumar19/React2025.git"
+  },
+  "license": "ISC",
+  "author": "Chetan Kumar",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  }
+}

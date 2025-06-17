@@ -1,1 +1,28 @@
-Notes for node js
+1.There are two type of dependenices we can install:
+    1. Dev dependenices
+    2. Normal dependenices ( use on production)
+
+2.Caret(^) vs tilde(~) in package.json 
+    "parcel": "^2.15.2"
+
+3.difference between package.json and package.json.log
+    package.json : configration for npm. Its keep tracking the what 
+                   version is installed in over system.
+
+    package.json.log : its keep tracking all the version of very moment and very details of dependencies etc.
+                       package-lock hones in on the nitty-gritty details of resolved dependencies
+4.node_modules: 
+    The node_modules folder contains all the external libraries and packages
+     (also called dependencies) that your Node.js project needs to run.
+    This is like a database which contaion all the code which needed to run a our project.
+5.Transitive dependency:
+    refers to a functional dependency pattern where the value of one attribute is determined by another attribute,
+    which in turn is determined by a third attribute
+
+6.npm for install 
+    npx is for execute the package
+
+7.What Is a Bundler in React?
+    In React (and JavaScript development in general), a bundler is a tool that takes all your 
+    JavaScript (and other assets like CSS, images, etc.) and combines or "bundles" them into one or more optimized 
+    files that can be loaded by the browser.
