@@ -26,3 +26,26 @@
     In React (and JavaScript development in general), a bundler is a tool that takes all your 
     JavaScript (and other assets like CSS, images, etc.) and combines or "bundles" them into one or more optimized 
     files that can be loaded by the browser.
+
+8.Pacel:done alot of things
+    =>Dev Build
+    =>Local server
+    =>HMR = Hot module Replacement (auto refresh)
+    =>File Watching Algorithm ~ Written in C++
+    =>Cashing ~ Faster builds 
+    =>Minificaton
+    =>Bundling
+    =>Compressing
+    =>Consistent Hashing
+    =>Code Splitting
+    =>Differental Bundling
+    =>differencal Bundling - support older browser
+    =>Error handling  (Diagnostic)
+    =>Tree shaking -remove unused code for use
+    =>different dev and prod bundles
+
+9.In package.json ('main':"App.js") will give error because of entry point we are give entry point as index.js(npx parcel index.html)
+  so we need to remove this one line from package.json
+
+10. browserlist (https://browserslist.de)
+    make versions for our app 
