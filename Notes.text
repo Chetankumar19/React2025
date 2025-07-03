@@ -49,3 +49,25 @@
 
 10. browserlist (https://browserslist.de)
     make versions for our app 
+
+11.//React.createElement => object => when we render this object then its become html element
+
+        |-----------JSX--------------|
+1. jsx is not HTML in JavaScript it is different 
+   =>our browser don't understand jsx.
+   =>js engine understands ES6 OR ECMAScript.
+   =>parcel => babel or React(parcel) doint the job to convert(transpiled befoer reaching to browser) this jsx code in js engine understandable code.
+   =>Parcel tells to babel to that job anb is bad ass bro will do that smoothly.
+
+   JSX => babel transpile  => React.createElement => ReactElement- js object => HTMLElement(render)
+
+         |----------------------Components------------------------|
+        There are two types of Components - 1. class based Components(old) 2.functional based Components(new)
+
+        ** React element and react Components render differently.
+        ** React Component is just a JavaScript code.
+                                                         
+
+
+   
+
